@@ -1,5 +1,7 @@
-Shopify Django App Example
+Shopify Django Heroku App Example
 ==========================
+
+
 It is a fork of django shopify application to set up easily on heroku.
 
 Instructions:
@@ -19,6 +21,8 @@ SHOPIFY_API_SECRET:    [your api_secret]
 ```
 heroku run python manage.py migrate
 ```
+
+
 ==========================
 This project makes it easy to get a Shopify app up and running with
 [Django](https://www.djangoproject.com/) and the
