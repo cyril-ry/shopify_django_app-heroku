@@ -4,21 +4,21 @@ It is a fork of django shopify application to set up easily on heroku.
 
 Instructions:
 1) Using Heroku you should config the next variables:
-
+```
 DISABLE_COLLECTSTATIC: 1
 DJANGO_SECRET: [think some password for django]
 DJANGO_SECRET_KEY: [think some password for django]
 SECRET_KEY:   [think some password for django]         
 SHOPIFY_API_KEY: [your api_key]      
 SHOPIFY_API_SECRET:    [your api_secret]
-
+```
 
 2) run the app, everything already should work using procfile
 
 3) Then it was important migrate the database if there is a error
-
+```
 heroku run python manage.py migrate
-
+```
 ==========================
 This project makes it easy to get a Shopify app up and running with
 [Django](https://www.djangoproject.com/) and the
